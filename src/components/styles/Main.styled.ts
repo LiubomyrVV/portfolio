@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledMain = styled.section`
-  height: 704px;
+  height: 100vh;
   figure {
     display: flex;
     height: 100%;
@@ -50,6 +50,46 @@ export const StyledMain = styled.section`
         }
     }
     
+  }
+  @media (max-width: 1126px) {
+    height: auto;
+    margin: 158px 0;
+  }
+  @media (max-width: 936px) {
+    figure {
+      display: flex;
+      flex-direction: column;
+      .image-container {
+        margin: 40px auto;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+      }
+      figcaption {
+        width: 80%
+      }
+    }
+  }
+  @media (max-width: 840px) {
+    figure {
+      .image-container {
+        width: 80%;
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    figure {
+      .image-container {
+        width: 90%;
+      }
+    }
+  }
+  @media (max-width: 400px) {
+    figure {
+      .image-container {
+        width: 95%;
+      }
+    }
   }
   
     

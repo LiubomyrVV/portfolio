@@ -11,6 +11,6 @@ export const StyledLightButton = styled.button`
     &:hover {
         color: #fff;
         background: rgb(53, 53, 53);
-        border: 0.1rem solid rgb(255, 255, 255);
+        border: 2px solid rgb(255, 255, 255);
     }
 `

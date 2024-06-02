@@ -1,9 +1,12 @@
 import styled from "styled-components";
 
 export const StyledAbout = styled.section`
-    height: 596px;
+    height: 100vh;
     section {
         display: flex;
+        div {
+            border-radius: 20px;
+        }
     }
     .description-section {
         flex-direction: column;
@@ -51,5 +54,25 @@ export const StyledAbout = styled.section`
         text-align: start;
         
     }
+   
+    @media (max-width:  1196px) {
+        height: auto;
+        section {
+            flex-direction: column;
+        }
+    }
+    @media (max-width: 480px) {
+        .carts {
+            flex-direction: column;
+        }
+        .description-section {
+            padding: 40px;
+        }
+    }
+    @media (max-width: 390px) {
 
+        .description-section {
+            padding: 40px 20px;
+        }
+    }
 `

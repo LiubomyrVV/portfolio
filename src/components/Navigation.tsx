@@ -4,8 +4,8 @@ export const Navigation = () => {
     return (
         <StyledNavigation>
                 <ul>
-                    {NAVIGATION.map(({name, position, isInNav = true}, idx) => {
-                        if (!isInNav) return 
+                    {NAVIGATION.map(({name, position, isInNavSection = true}, idx) => {
+                        if (!isInNavSection) return 
                         return <li key={idx} onClick={() => scrollTo({
                             top: position, 
                             left: 0, 

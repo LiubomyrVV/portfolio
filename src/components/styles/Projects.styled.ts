@@ -31,4 +31,21 @@ min-height: 640px;
             border-radius: 24px;
         }
     }
+    
+    @media (max-width: 500px) { 
+        article {
+            margin: 0 22px;
+        }
+    }
+    @media (max-width: 370px) { 
+        article {
+            .actions {
+                flex-direction: column;
+                button {
+                   min-width: 100%;
+                }
+            }
+        }
+    }
+    
 `

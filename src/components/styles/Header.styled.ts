@@ -16,8 +16,11 @@ export const StyledHeader = styled.header`
         padding: 8px 4px;
         cursor: pointer;
     }
+    
     li {
         font-size: 1.4rem;
     }
-    
+    @media (max-width: 936px) {
+        justify-content: start;
+    }
 `

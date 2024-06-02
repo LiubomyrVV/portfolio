@@ -8,30 +8,31 @@ const IMAGE_URL = 'https://i.pinimg.com/736x/41/f4/99/41f49941fed13bc2795c153a01
 export const Main = () => {
     return (
         <StyledMain>
-            <figure>
-                <div className='image-container'>
-                    <img src={IMAGE_URL} alt="" />
+        <figure>
+            <div className='image-container'>
+                <img src='public\Main.jpg' alt="" />
+            </div>
+            <figcaption>
+                <p>Cześć, jestem</p>
+                <h2>Liubomyr Vernyk</h2>
+                <p>Frontend developer</p>
+                <div className='actions'>
+                    <LightButton title={'Pobierz CV'} />
+                    <DarkButton onClick={() => {
+                        window.scrollTo({
+                            top: NAVIGATION.find(({ name }) => name === 'Kontakt')?.position,
+                            left: 0,
+                            behavior: 'smooth',
+                        })
+                    }} title={'Kontakt'} />
                 </div>
-                <figcaption>
-                    <p>Hello i'm</p>
-                    <h2>Liubomyr Vernyk</h2>
-                    <p>Frontend developer</p>
-                    <div className='actions'>
-                        <LightButton title={'Download CV'} />
-                        <DarkButton onClick={() => {
-                            window.scrollTo({
-                                top: NAVIGATION.find(({ name }) => name === 'Contact')?.position,
-                                left: 0,
-                                behavior: 'smooth',
-                            })
-                        }} title={'Contact Info'} />
-                    </div>
-                    <div className="socials">
-                        <div><i className="bi bi-github"></i></div>
-                        <div><i className="bi bi-linkedin"></i></div>
-                    </div>
-                </figcaption>
-            </figure>
-        </StyledMain>
+                <div className="socials">
+                    <div><i className="bi bi-github"></i></div>
+                    <div><i className="bi bi-linkedin"></i></div>
+                </div>
+            </figcaption>
+        </figure>
+    </StyledMain>
+    
     )
 }

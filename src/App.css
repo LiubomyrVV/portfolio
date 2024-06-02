@@ -7,3 +7,14 @@
 .container {
   margin: 0 5%;
 }
+@media (max-width: 600px) {
+  .container {
+    margin: 0;
+  }
+  
+}
+@media (max-width: 500px) {
+  #root {
+    padding: 0rem;
+  }
+}

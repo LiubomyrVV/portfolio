@@ -1,31 +1,35 @@
-const contactPosition = document.body.scrollHeight;
-
-const NAVIGATION = [
+interface NavigationItem {
+    name: string;
+    position?: number;
+    isInNav?: boolean;
+    isInNavSection?: boolean; // Optional property
+  }
+const NAVIGATION: NavigationItem[] = [
     {
-        name: 'Header',
+        name: 'Nagłówek',
         position: 0,
-        isInNav: false,
+        isInNavSection: false,
     },
     {
-        name: 'Main',
-        position: 100,
-        isInNav: false,
+        name: 'Główna',
+        position: 102,
+        isInNavSection: false,
     },
     {
-        name: 'About',
-        position: 775,
+        name: 'O mnie',
+        position: 918,
     },
     {
-        name: 'Experience',
-        position: 1460,
+        name: 'Doświadczenie',
+        position: 1836,
     },
     {
-        name: 'Projects',
-        position: 2038,
+        name: 'Projekty',
+        position: 2754,
     },
     {
-        name: 'Contact',
-        position: contactPosition,
+        name: 'Kontakt',
+        position: 3303,
     },
 ]
 export default NAVIGATION;

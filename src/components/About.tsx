@@ -4,11 +4,12 @@ import { StyledAbout } from "./styles/About.styled"
 import { PopupWindow } from "./PopupWindow.js"
 
 const IMAGE_URL = 'https://dthezntil550i.cloudfront.net/zb/latest/zb2301251751280110011255165/1280_960/3e4f88a7-98b3-4ec3-8927-211bee139dbc.jpg'
-const DESCRIPTION = `Lorem ipsum dolor sit amet consectetur adipisicing elit.
- Hic quis reprehenderit et laborum, rem, dolore eum quod voluptate exercitationem nobis,
-  nihil esse debitis maxime facere minus sint delectus velit in eos quo officiis explicabo 
-  deleniti dignissimos. Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-   reiciendis ea magnam? Nulla, impedit fuga!`
+const DESCRIPTION = `Cześć! Jestem samoukiem w dziedzinie Front End Developmentu. 
+Bardzo podoba mi się programowanie i widzę swoją przyszłość wyłącznie w tej branży. 
+Cały swój wolny czas poświęcam na programowanie. Pasjonuje mnie IT, stale uczę się nowych technologii i 
+dążę do doskonalenia się jako specjalista.
+Jestem pracowity, szybko radzę sobie z problemami technicznymi, 
+lubię pracować w zespole i nie boję się nowych wyzwań. Jestem gotowy do pracy i nauki!`
 
 
 
@@ -20,15 +21,15 @@ export const About = () => {
   return (
     <>
     
-    {isEducationVisible ? <PopupWindow section={'About'} setValue={setIsEducationVisible} value={isEducationVisible}/>  : null}
+    {isEducationVisible ? <PopupWindow section={'O mnie'} setValue={setIsEducationVisible} value={isEducationVisible}/>  : null}
     <StyledAbout>
       
       <div className='section-title'>
-        <p>Get To Know More</p>
-        <h2>About Me</h2>
+        <p>Dowiedz się wiecęj</p>
+        <h2>O Mnie</h2>
       </div>
       <section>
-        <div><img src={IMAGE_URL} alt="" width='320px' /></div>
+        <div><img src='public/About.jpg'alt="" width='320px' /></div>
         <section className="description-section">
           <div className="carts">
             <div onClick={() => {
@@ -37,30 +38,30 @@ export const About = () => {
                 screen.disableScroll()
               }}>
               <i className="bi bi-book"></i>
-              <h2>Education</h2>
+              <h2>Nauka</h2>
               <p>
-                2+ year
+                2+ lata
                 <br />
-                of self-taught
+                Samodzielnej nauki
                 <br />
-                Web Developing learning.
+                Programowania Stron Internetowych
               </p>
             </div>
             <div onClick={() => {
               window.scrollTo({
-                top: NAVIGATION.find(({ name }) => name === 'Experience')?.position,
+                top: NAVIGATION.find(({ name }) => name === 'Doświadczenie')?.position,
                 left: 0,
                 behavior: 'smooth',
               })
             }}>
               <i className="bi bi-people"></i>
-              <h2>Experience</h2>
+              <h2>Doświadczenie</h2>
               <p>
-                6+ month
+                1 rok
                 <br />
-                of developing as
+                Programowania Trudniejszych
                 <br />
-                Frontend Developer
+                Projektów Front End
               </p>
             </div>
           </div>

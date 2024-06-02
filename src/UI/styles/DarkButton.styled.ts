@@ -14,6 +14,6 @@ export const StyledDarkButton = styled.button`
     
     &:hover {
         background: rgb(33, 32, 32);
-        border: 0.1rem solid rgb(255, 255, 255);
+        border: 2px solid rgb(255, 255, 255);
     }
 `

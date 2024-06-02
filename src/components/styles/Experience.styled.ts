@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
 export const StyledExperience = styled.section`
-    height: 704px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
     .carts {
+       
         display: flex;
         gap: 24px;
-
+       
+       
         margin: 0 5%;
         h3 {
             width: 100%;
@@ -20,40 +22,48 @@ export const StyledExperience = styled.section`
         div:not(article div) {
             display: flex;
             flex-wrap: wrap;
+            
             gap: 28px;
             padding: 24px 44px 44px;
             border: 2px solid rgb(163, 163, 163);
             border-radius: 24px;
-
             transition: all 300ms ease; 
-            &:hover {
-                border: 2px solid #fff;
-                background: rgb(119 114 136);
-                color: white;
-                cursor: pointer;
+          
                 
-                h3 {
-                    transition: all 300ms ease;
-                    color: white;
+            article {
+                min-width: 40%;
+                display: flex;
+                flex: 1;
+                text-align: start;
+                h4 {
+                    font-weight: 600;
+                    margin-bottom: 6px;
                 }
-                p {
-                    color: white;
-                    transition: all 300ms ease;
+                i {
+                    display: flex;
+                    align-items: start;
+                    font-size: 24px;
+                    margin-right: 12px; 
                 }
             }
-             
-        article {
-            min-width: 40%;
-            display: flex;
-            flex: 1;
-            text-align: start;
-            h4 {
-                font-weight: 600;
+        }
+    }
+
+    @media (max-width: 1140px) { 
+        height: auto;
+        .carts {
+            div:not(article div) {
+                flex-direction: column;
+                flex: 1;
             }
-            i {
-                font-size: 24px;
-                margin-right: 12px; 
-            }
+        }
+    }
+    @media (max-width:  800px) { 
+        .carts {
+           flex-direction: column;
+        }  
+        h2 {
+            word-break: break-all;
         }
     }
 `

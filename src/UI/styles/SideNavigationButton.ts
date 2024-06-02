@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledSideNavigationButton = styled.div`
     position: fixed;
-    bottom: 50%;
-    right: 20px;
+    bottom: 43%;
+    right: 30px;
     div {
         display: flex;
         flex-direction: column;
