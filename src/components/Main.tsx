@@ -10,7 +10,7 @@ export const Main = () => {
         <StyledMain>
         <figure>
             <div className='image-container'>
-                <img src='public\Main.jpg' alt="" />
+                <img src='/Main.jpg' alt="" />
             </div>
             <figcaption>
                 <p>Cześć, jestem</p>
