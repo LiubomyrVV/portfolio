@@ -5,7 +5,7 @@ import { StyledMain } from "./styles/Main.styled"
 
 
 const fileUrl = '/cv.pdf'; 
-const fileName = 'Liubomyr Vernyk Web Developer.pdf';
+
 
 export const Main = () => {
     return (
@@ -19,7 +19,7 @@ export const Main = () => {
                 <h2>Liubomyr Vernyk</h2>
                 <p>Frontend developer</p>
                 <div className='actions'>
-                    <a href={fileUrl} download={fileName}><LightButton title={'Pobierz CV'} /></a>
+                    <a href={fileUrl} target="_blank"><LightButton title={'Pobierz CV'} /></a>
                     <div onClick={() => scrollTo({
                             top: document.documentElement.scrollHeight,
                             behavior: 'smooth'
