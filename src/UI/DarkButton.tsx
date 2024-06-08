@@ -1,13 +1,12 @@
 import { StyledDarkButton } from "./styles/DarkButton.styled"
 
 interface Props {
-  onClick: () => void;
   title: string;
 }
 
-export const DarkButton: React.FC<Props> =  ({ onClick, title = 'test' }) => {
+export const DarkButton: React.FC<Props> =  ({  title = 'test' }) => {
   return (
-    <StyledDarkButton onClick={onClick}>
+    <StyledDarkButton>
       {title}
     </StyledDarkButton>
   )

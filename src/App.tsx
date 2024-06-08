@@ -11,7 +11,7 @@ import { SideNavigationButton } from './UI/SideNavigationButton';
 import { useResizeObserver } from 'usehooks-ts';
 
 
-
+const navigationDropWidth = 1000;
 const App = () => {
   const containerRef = useRef<HTMLDivElement>(null)
   const { width = 0 } = useResizeObserver({
@@ -21,17 +21,17 @@ const App = () => {
 
   return (
     <>
-        <Header />
+      {width >= navigationDropWidth ? <Header /> : null}
       <div className='container' ref={containerRef}>
         <Main />
         <About />
         <Experience />
         <Projects />
         <Contact />
-        <Footer />   
+        {width >= navigationDropWidth ? <Footer /> : null}  
       </div>
 
-    {width >= 956 ? <SideNavigationButton /> : null}
+    {width >= navigationDropWidth ? <SideNavigationButton /> : null}
     </>
   )
 }

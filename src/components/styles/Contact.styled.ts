@@ -13,16 +13,24 @@ export const StyledContact = styled.section`
         padding: 28px 68px;
 
         div {
+            display: flex;
+            align-items: center;
             i {
                 font-size: 22px;
                 margin-right: 10px;
             }
+            a {
+                display: inline-block;
+                text-decoration: none;
+            }
+            
         }
     }
     
-    @media (max-width: 1157px) {
+    @media (max-width: 1175px) { 
         min-height: auto;
-        margin: 92px 0;
+        padding: 20px 0;
+
     }
     @media (max-width: 545px) { 
         article {
@@ -31,7 +39,7 @@ export const StyledContact = styled.section`
         
         margin: 54px 0;
     }
-    @media (max-width: 421px) {
+    @media (max-width: 472px) {
         article {
             width: 70%;
             flex-direction: column; 

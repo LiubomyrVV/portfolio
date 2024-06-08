@@ -1,15 +1,10 @@
-import { useEffect, useRef } from "react";
 import { StyledContact } from "./styles/Contact.styled"
 
 export const Contact = () => {
-    const ref = useRef<HTMLInputElement>(null);
-    useEffect(() => {
-        const rect = ref?.current?.getBoundingClientRect();
-        console.log(rect?.y)
-    }, [])
+   
 
   return (
-   <StyledContact ref={ref}>
+   <StyledContact>
     <div className='section-title'>
         <p>Skontaktuj się</p>
         <h2>Kontakt</h2>
@@ -17,11 +12,11 @@ export const Contact = () => {
     <article>
         <div>
             <i className="bi bi-envelope"></i>
-            <a href='mailto:lvwork05@gmail.com'>lvwork05@gmail.com</a>
+            <a href='mailto:liubomyrpoland@gmail.com'>liubomyrpoland@gmail.com</a>
         </div>
         <div>
-            <i className="bi bi-linkedin"></i>
-            <a>LinkedIn</a>
+            <i className="bi bi-telegram"></i>
+            <a>Telegram</a>
         </div>
     </article>
 </StyledContact>

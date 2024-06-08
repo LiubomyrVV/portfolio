@@ -51,11 +51,14 @@ export const StyledMain = styled.section`
     }
     
   }
-  @media (max-width: 1126px) {
-    height: auto;
-    margin: 158px 0;
+   
+  @media (max-width:  1175px) {
+    height: fit-content;
+    padding: 120px 0;
   }
+
   @media (max-width: 936px) {
+    padding: 80px 0;
     figure {
       display: flex;
       flex-direction: column;
@@ -78,6 +81,7 @@ export const StyledMain = styled.section`
     }
   }
   @media (max-width: 600px) {
+    padding: 40px 0;
     figure {
       .image-container {
         width: 90%;

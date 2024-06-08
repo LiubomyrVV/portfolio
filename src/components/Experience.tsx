@@ -6,8 +6,8 @@ export const Experience = () => {
 
     <StyledExperience>
         <div className='section-title'>
-          <p>Zapoznaj się z moim</p> 
-          <h2>Doświadczeniem</h2>
+          <p>Technologie które używam</p> 
+          <h2>Doświadczenie</h2>
       </div>
       <div className='carts'>
         <div>
@@ -81,6 +81,13 @@ export const Experience = () => {
         <article>
             <i className="bi bi-patch-check"></i>
             <div>
+                <h4>REST API</h4>
+                <p>Zaawansowany</p>
+            </div>
+        </article>
+        <article>
+            <i className="bi bi-patch-check"></i>
+            <div>
                 <h4>Node.js</h4>
                 <p>Podstawowy</p>
             </div>
@@ -89,13 +96,6 @@ export const Experience = () => {
             <i className="bi bi-patch-check"></i>
             <div>
                 <h4>SQL</h4>
-                <p>Podstawowy</p>
-            </div>
-        </article>
-        <article>
-            <i className="bi bi-patch-check"></i>
-            <div>
-                <h4>REST API</h4>
                 <p>Podstawowy</p>
             </div>
         </article>

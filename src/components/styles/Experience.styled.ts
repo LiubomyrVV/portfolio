@@ -49,8 +49,9 @@ export const StyledExperience = styled.section`
         }
     }
 
-    @media (max-width: 1140px) { 
+    @media (max-width: 1175px) { 
         height: auto;
+        padding: 60px 0;
         .carts {
             div:not(article div) {
                 flex-direction: column;

@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const StyledProjects = styled.section`
-min-height: 640px;
+    min-height: 640px;
     .projects-list {
         display: flex;
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
         gap: 12px;
     }
     article {
@@ -27,11 +27,29 @@ min-height: 640px;
             gap: 12px; 
         }
         img {
-            width: 90%;
+            width: 100%;
             border-radius: 24px;
         }
+        figure {
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            width: 100%;
+            height: 100%;
+            border-radius: 24px;
+
+            background: #282828;
+            opacity: 0.35;
+        }
     }
-    
+   
+    @media (max-width: 1175px) {
+     min-height: auto;
+    }
     @media (max-width: 500px) { 
         article {
             margin: 0 22px;

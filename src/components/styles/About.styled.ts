@@ -27,21 +27,11 @@ export const StyledAbout = styled.section`
             min-width: 40%;
             
             transition: all 300ms ease; 
-            &:hover {
-                border: 2px solid #fff;
-                background: rgb(119 114 136);
-                color: white;
-                cursor: pointer;
-                p {
-                    color: white;
-                    transition: all 300ms ease;
-                }
+            i {
+                font-size: 26px;
             }
             p {
                 line-height: 1.2rem;
-            }
-            i {
-                font-size: 26px;
             }
         }
     }

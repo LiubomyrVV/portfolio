@@ -22,5 +22,6 @@ export const StyledHeader = styled.header`
     }
     @media (max-width: 936px) {
         justify-content: start;
+        
     }
 `

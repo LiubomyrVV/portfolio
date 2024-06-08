@@ -1,10 +1,11 @@
 import { DarkButton } from "../UI/DarkButton"
 import { LightButton } from "../UI/LightButton"
-import NAVIGATION from "../constants/navigation";
+
 import { StyledMain } from "./styles/Main.styled"
 
-const IMAGE_URL = 'https://i.pinimg.com/736x/41/f4/99/41f49941fed13bc2795c153a01cc11ab.jpg';
 
+const fileUrl = '/file.pdf'; // Replace with the path to your file
+const fileName = 'Liubomyr_Vernyk.pdf';
 export const Main = () => {
     return (
         <StyledMain>
@@ -17,18 +18,15 @@ export const Main = () => {
                 <h2>Liubomyr Vernyk</h2>
                 <p>Frontend developer</p>
                 <div className='actions'>
-                    <LightButton title={'Pobierz CV'} />
-                    <DarkButton onClick={() => {
-                        window.scrollTo({
-                            top: NAVIGATION.find(({ name }) => name === 'Kontakt')?.position,
-                            left: 0,
-                            behavior: 'smooth',
-                        })
-                    }} title={'Kontakt'} />
+                    <a><LightButton title={'Pobierz CV'} /></a>
+                    <div onClick={() => scrollTo({
+                            top: document.documentElement.scrollHeight,
+                            behavior: 'smooth'
+                    })}><DarkButton title={'Kontakt'} /></div>
                 </div>
                 <div className="socials">
-                    <div><i className="bi bi-github"></i></div>
-                    <div><i className="bi bi-linkedin"></i></div>
+                    <div><a href="https://github.com/LiubomyrVV"><i className="bi bi-github"></i></a></div>
+                    <div><a href="https://t.me/+Y2DY67oz-dJjNmFk"><i className="bi bi-telegram"></i></a></div>
                 </div>
             </figcaption>
         </figure>
