@@ -16,7 +16,7 @@ export const About = () => {
         <h2>O Mnie</h2>
       </div>
       <section>
-        <div><img src='public/About.jpg'alt="" width='320px' /></div>
+        <div><img src='/About.jpg'alt="" width='320px' /></div>
         <section className="description-section">
           <div className="carts">
             <div>
