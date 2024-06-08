@@ -1,6 +1,6 @@
 interface NavigationItem {
     name: string;
-    position?: number;
+    position: number;
     isInNav?: boolean;
     isInNavSection?: boolean; // Optional property
   }
