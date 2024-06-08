@@ -12,11 +12,11 @@ export const Contact = () => {
     <article>
         <div>
             <i className="bi bi-envelope"></i>
-            <a href='mailto:liubomyrpoland@gmail.com'>liubomyrpoland@gmail.com</a>
+            <a href='mailto:liubomyrpoland@gmail.com' target="_blank">liubomyrpoland@gmail.com</a>
         </div>
         <div>
             <i className="bi bi-telegram"></i>
-            <a>Telegram</a>
+            <a href="https://t.me/+Y2DY67oz-dJjNmFk" target="_blank">Telegram</a>
         </div>
     </article>
 </StyledContact>
