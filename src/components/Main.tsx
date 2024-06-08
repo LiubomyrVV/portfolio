@@ -4,8 +4,7 @@ import { LightButton } from "../UI/LightButton"
 import { StyledMain } from "./styles/Main.styled"
 
 
-const fileUrl = '/file.pdf'; // Replace with the path to your file
-const fileName = 'Liubomyr_Vernyk.pdf';
+
 export const Main = () => {
     return (
         <StyledMain>
