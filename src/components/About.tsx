@@ -5,8 +5,8 @@ import { StyledAbout } from "./styles/About.styled"
 
 const DESCRIPTION = `Cześć! Uczę się Front End Developmentu i pasjonuję się IT. Cały wolny czas programuję, uczę się nowych technologii i doskonalę swoje umiejętności. Jestem pracowity, szybko rozwiązuję problemy, lubię pracę w zespole i wyzwania. Gotowy do pracy!`
 
-const slideRight = {hidden:{x:25}, visible:{x:0}}
-export const About = () => {
+  const slideRight = {hidden:{x:25}, visible:{x:0}}
+export const About = () => {  
   return (
     <>
     <Reveal>

@@ -24,7 +24,9 @@ export const StyledProjects = styled.section`
         border: 2px solid rgb(163, 163, 163);
         border-radius: 24px;
 
-
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         h3 {
             font-size: 24px;
             font-weight: 600;
@@ -38,6 +40,7 @@ export const StyledProjects = styled.section`
         img {
             width: 100%;
             border-radius: 24px;
+            min-height: 183px;
         }
         figure {
             position: relative;

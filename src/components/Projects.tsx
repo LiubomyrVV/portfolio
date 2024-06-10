@@ -4,6 +4,7 @@ import { Reveal } from "./Reveal"
 import { StyledProjects } from "./styles/Projects.styled"
 const IMAGE_URL = 'https://i.pinimg.com/originals/57/4c/67/574c67c1d8816141746e845f06ecc04d.jpg'
 const slideLeft = {hidden:{x:25}, visible:{x:0}}
+
 export const Projects = () => {
   return (
     <Reveal>
