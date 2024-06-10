@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
+
+
 export const StyledMain = styled.section`
-  height: 100vh;
+display: flex;
+align-items: center;
+
+height: 100vh;
+
   figure {
     display: flex;
     height: 100%;
@@ -11,9 +17,10 @@ export const StyledMain = styled.section`
     display: grid; 
     place-items: center;
     width: 45%;
+  
     img {
-        width: 70%;
-        border-radius: 50%; 
+      width: 70%;
+      border-radius: 50%; 
     }
   }
 
@@ -21,30 +28,35 @@ export const StyledMain = styled.section`
 
   figcaption {
     align-self: center;
-    text-align: center;
     width: 55%;
     p {
-        font-weight: 600;
-    }
-    p:nth-child(3) {
-        font-size: 1.75rem;
+      
+      margin: 0 auto;
+      font-weight: 600;
+
     }
     h2 {
-        font-size: 3rem;
-        font-weight: 600;
-        margin: 20px 0;
+      font-size: 3rem;
+      font-weight: 600;
+      margin: 20px auto;
+
+    }
+    p:nth-child(3) {
+      font-size: 1.75rem;
     }
     .actions {
-        display: flex;
-        justify-content: center;
-        gap: 22px;
-        margin: 24px 0;
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+      margin: 24px 0;
+
     }
     .socials {
         display: flex;
         justify-content: center;
         gap: 22px;
-        
+
+
         i {
             font-size: 42px;
         }

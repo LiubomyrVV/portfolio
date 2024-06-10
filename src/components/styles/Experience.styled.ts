@@ -4,13 +4,18 @@ export const StyledExperience = styled.section`
     height: 100vh;
     display: flex;
     flex-direction: column;
-
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 16px;
+    }
+    p {
+        padding: 4px 0;
+    }
     .carts {
-       
         display: flex;
         gap: 24px;
-       
-       
         margin: 0 5%;
         h3 {
             width: 100%;
@@ -18,6 +23,7 @@ export const StyledExperience = styled.section`
             font-weight: 600;
             font-size: 26px;
             color: rgb(85, 85, 85);
+            
         }
         div:not(article div) {
             display: flex;

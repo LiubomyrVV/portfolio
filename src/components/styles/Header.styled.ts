@@ -15,6 +15,7 @@ export const StyledHeader = styled.header`
         gap: 34px;
         padding: 8px 4px;
         cursor: pointer;
+        padding-left: 20px;
     }
     
     li {

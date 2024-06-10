@@ -2,6 +2,15 @@ import styled from "styled-components";
 
 export const StyledProjects = styled.section`
     min-height: 640px;
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 16px;
+    } 
+    p {
+        padding: 4px 0;
+    }
     .projects-list {
         display: flex;
         flex-wrap: wrap;

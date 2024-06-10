@@ -1,5 +1,7 @@
 
-const debbuged = debug(() => {console.log('hello1')}, 1500)
-debbuged()
-setTimeout(debbuged, 2000)
+const objDefault = {z: 0, y: 0}
+const objCurrent = {z: 1, y: 1}
 
+
+const result = {...objDefault, ...objCurrent}
+console.log(result)

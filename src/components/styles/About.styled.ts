@@ -2,11 +2,22 @@ import styled from "styled-components";
 
 export const StyledAbout = styled.section`
     height: 100vh;
+    .section-title {
+        div {
+            padding-bottom: 6px;
+        }
+        h2 {
+            font-size: 3rem;
+            text-align: center;
+            font-weight: 600;
+        }
+    }
     section {
         display: flex;
         div {
             border-radius: 20px;
         }
+        
     }
     .description-section {
         flex-direction: column;
@@ -17,21 +28,24 @@ export const StyledAbout = styled.section`
         justify-content: center;
         gap: 22px;
         margin-bottom: 54px;
-        div {
+        div { 
             display: flex;
-            flex-direction: column; 
-            gap: 12px;
-            border: 2px solid rgb(163, 163, 163);
-            border-radius: 24px;
-            padding: 24px;
-            min-width: 40%;
-            
-            transition: all 300ms ease; 
-            i {
+            div {
+                display: flex;
+                flex-direction: column; 
+                gap: 12px;
+                border: 2px solid rgb(163, 163, 163);
+                
+                padding: 24px;
+                min-width: 40%; 
+                flex: 1;
+                i {
                 font-size: 26px;
-            }
-            p {
-                line-height: 1.2rem;
+                }
+                p {
+                    display: inline-block;
+                    line-height: 1.2rem;
+                }
             }
         }
     }
@@ -42,6 +56,7 @@ export const StyledAbout = styled.section`
     .description {
         line-height: 1.3rem;
         text-align: start;
+        padding: 4px;
         
     }
    

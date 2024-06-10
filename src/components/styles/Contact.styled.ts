@@ -2,6 +2,21 @@ import styled from "styled-components";
 
 export const StyledContact = styled.section`
     min-height: 392px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    div {
+        width: 100%;
+    }
+    h2 {
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 600;
+        margin-top: 16px;
+    }
+    p {
+        padding: 4px 0;
+    }
     article {
         display: flex;
         gap: 24px;
@@ -22,6 +37,7 @@ export const StyledContact = styled.section`
             a {
                 display: inline-block;
                 text-decoration: none;
+                padding: 4px 0;
             }
             
         }
