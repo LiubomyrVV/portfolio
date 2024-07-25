@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+Liubomyr Vernyk
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JavaScript Front End Developer
 
-Currently, two official plugins are available:
+Contact Information:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    E-mail: liubomyrpoland@gmail.com
+    Phone: +48 731 807 362
+    Portfolio: [Available upon request]
 
-## Expanding the ESLint configuration
+About Me:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+I am a self-taught Front End Developer with one year of experience, currently enrolled in an evening high school program. I dedicate all my free time to programming and am available to work on Saturdays and Sundays. My initial experience was with pure JavaScript, and I have since advanced to using React and TypeScript. I have collaborated in two team projects, continuously expanding my skill set, handling various frontend tasks, and occasionally writing simple backend code.
 
-- Configure the top-level `parserOptions` property like this:
+I am passionate about IT, constantly learning new technologies, and striving to improve as a specialist. I am hardworking, quick at solving technical problems, enjoy teamwork, and am always ready for new challenges.
+Technologies:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+    Frontend: HTML, CSS, JavaScript, React, TypeScript, Redux (RTK), SASS, Styled Components, Tailwind
+    Backend: Node.js, SQL, MongoDB
+    Others: REST API
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Languages:
+
+    English: Intermediate
+    Polish: Advanced
+    Russian: Advanced
+    Ukrainian: Native
+
+Experience:
+
+Front End Developer
+December 2023 - April 2024
+
+    Worked in a team on an e-commerce project.
+    Primarily handled front end tasks, created and tested various forms.
+    Implemented store logic using Redux Toolkit.
+    Managed client-server communication with REST API.
+    Stack: TypeScript, React, Redux (RTK), Styled Components, Node.js.
+
+Front End Developer
+July 2023 - December 2023
+
+    Worked in a team creating small websites.
+    Focused on front end using JavaScript.
+    Collaborated with UX/UI designers to ensure consistency and attractive design.
+    Stack: HTML, SASS, JavaScript.
+
+Education:
+
+Private High School for Adults “Przyszłość” (Future)
+Part-time: January 2024 to present
+
+Feel free to modify or expand upon this summary to better fit your needs or preferences.
