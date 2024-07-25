@@ -43,7 +43,7 @@ export const Main = () => {
                 <Reveal {...slideRight} transition={{delay:delayDefault + 2}}>
                 <div className="socials">
                     <div><a href="https://github.com/LiubomyrVV"  target="_blank"><i className="bi bi-github"></i></a></div>
-                    <div><a href="https://t.me/+Y2DY67oz-dJjNmFk"  target="_blank"><i className="bi bi-telegram"></i></a></div>
+                    <div><a href="https://www.linkedin.com/in/liubomyr-vernyk-4951b131a/"  target="_blank"><i className="bi bi-linkedin"></i></a></div>
                 </div>
               
                 </Reveal>

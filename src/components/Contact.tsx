@@ -20,8 +20,8 @@ export const Contact = () => {
             <Reveal width='fit-content' transition={{delay: 1.8}}><a href='mailto:liubomyrpoland@gmail.com' target="_blank">liubomyrpoland@gmail.com</a></Reveal>
         </div>
         <div>
-            <Reveal width='fit-content' transition={{delay: 1.4}}><i className="bi bi-telegram"></i></Reveal>
-            <Reveal width='fit-content' transition={{delay: 1.8}}><a href="https://t.me/+Y2DY67oz-dJjNmFk" target="_blank">Telegram</a></Reveal>
+            <Reveal width='fit-content' transition={{delay: 1.4}}><i className="bi bi-linkedin"></i></Reveal>
+            <Reveal width='fit-content' transition={{delay: 1.8}}><a href="https://www.linkedin.com/in/liubomyr-vernyk-4951b131a/" target="_blank">Linkedin</a></Reveal>
         </div>
     </article>
     </Reveal>
