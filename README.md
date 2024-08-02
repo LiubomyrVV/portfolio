@@ -1,55 +1,55 @@
 Demo: https://portfolio-psi-silk-60.vercel.app/
 
-Liubomyr Vernyk
+Liubomyr Vernyk - JavaScript Front End Developer
 
-JavaScript Front End Developer
+Email: liubomyrpoland@gmail.com
+Phone: +48 731 807 362
+About Me
 
-Contact Information:
+I am a self-taught Front End Developer with one year of hands-on experience. My background includes extensive work in building websites, collaborating with teams, and effectively communicating with clients. I am eager to expand my skill set into Full Stack Development. Currently, I am employed at Vatose, a Ukrainian company, where I am working on an e-commerce project. As this project is nearing completion, I am actively seeking new opportunities across Europe, with a particular interest in Poland.
+Technologies
 
-    E-mail: liubomyrpoland@gmail.com
-    Phone: +48 731 807 362
-    Portfolio: [Available upon request]
+    HTML
+    CSS
+    SASS
+    JavaScript
+    React
+    TypeScript
+    Redux (RTK)
+    REST API
+    Styled Components
+    Node.js
+    Tailwind
+    SQL
+    MongoDB
 
-About Me:
+Languages
 
-I am a self-taught Front End Developer with one year of experience, currently enrolled in an evening high school program. I dedicate all my free time to programming and am available to work on Saturdays and Sundays. My initial experience was with pure JavaScript, and I have since advanced to using React and TypeScript. I have collaborated in two team projects, continuously expanding my skill set, handling various frontend tasks, and occasionally writing simple backend code.
-
-I am passionate about IT, constantly learning new technologies, and striving to improve as a specialist. I am hardworking, quick at solving technical problems, enjoy teamwork, and am always ready for new challenges.
-Technologies:
-
-    Frontend: HTML, CSS, JavaScript, React, TypeScript, Redux (RTK), SASS, Styled Components, Tailwind
-    Backend: Node.js, SQL, MongoDB
-    Others: REST API
-
-Languages:
-
-    English: Intermediate
-    Polish: Advanced
-    Russian: Advanced
+    English: B2
+    Polish: B2/C1
+    Russian: C1/C2
     Ukrainian: Native
 
-Experience:
+Experience
+
+Junior Front End Developer
+Vatose
+September 2023 – Present
+
+    Contributed to an e-commerce project within a team environment.
+    Focused on front-end tasks, including creating and testing various forms.
+    Implemented store logic using Redux Toolkit and managed client-server communication via REST API.
+    Stack: TypeScript, React, Redux (RTK), Styled Components, Node.js, RWD, GIT
 
 Front End Developer
-December 2023 - April 2024
+December 2022 – August 2023
 
-    Worked in a team on an e-commerce project.
-    Primarily handled front end tasks, created and tested various forms.
-    Implemented store logic using Redux Toolkit.
-    Managed client-server communication with REST API.
-    Stack: TypeScript, React, Redux (RTK), Styled Components, Node.js.
+    Completed various front-end projects as a freelancer.
+    Specialized in front-end development with JavaScript, developed landing pages, and collaborated with other developers.
+    Dedicated substantial time to continuous learning and skill development.
+    Stack: HTML, SASS, JavaScript, RWD
 
-Front End Developer
-July 2023 - December 2023
+Education
 
-    Worked in a team creating small websites.
-    Focused on front end using JavaScript.
-    Collaborated with UX/UI designers to ensure consistency and attractive design.
-    Stack: HTML, SASS, JavaScript.
-
-Education:
-
-Private High School for Adults “Przyszłość” (Future)
-Part-time: January 2024 to present
-
-Feel free to modify or expand upon this summary to better fit your needs or preferences.
+Part-time: Private High School for Adults “Future”
+January 2024 – Present
