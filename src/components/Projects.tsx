@@ -31,7 +31,7 @@ export const Projects = () => {
                     <img src='/MAJORP.png' alt="" />
                     <div className="overlay"></div>
                 </figure>
-                <h3>Soon..</h3>
+                <h3>Major Team Project</h3>
                 <div className="actions">
                 <a href="https://github.com/onlinestoreteam567/major" target="_blank"><LightButton title={'Github'}/></a>
                 <a href="https://major-gamma.vercel.app/" target="_blank"><DarkButton title={'Demo'}/></a>
