@@ -28,7 +28,7 @@ export const Projects = () => {
             </article>
             <article>
                 <figure>
-                    <img src={IMAGE_URL} alt="" />
+                    <img src='/MAJORP.png' alt="" />
                     <div className="overlay"></div>
                 </figure>
                 <h3>Soon..</h3>
