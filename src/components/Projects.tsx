@@ -33,8 +33,8 @@ export const Projects = () => {
                 </figure>
                 <h3>Soon..</h3>
                 <div className="actions">
-                    <LightButton title={'Github'}/>
-                    <DarkButton title={'Demo'}/>
+                <a href="https://github.com/onlinestoreteam567/major" target="_blank"><LightButton title={'Github'}/></a>
+                <a href="https://major-gamma.vercel.app/" target="_blank"><DarkButton title={'Demo'}/></a>
                 </div>
             </article>
             <article>
